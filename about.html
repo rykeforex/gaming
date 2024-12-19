@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About us - Learn more about our company, mission, values, history, and FAQs">
+    <title>About Us - Our Company</title>
+    <style>
+        /* Reset some basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            padding: 20px 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo img {
+            height: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #0071e3;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #0071e3;
+            color: white;
+            text-align: center;
+            padding: 60px 30px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 60px 30px;
+            background-color: white;
+        }
+
+        .about-section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #0071e3;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .about-section ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .about-section ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        /* Leadership Section */
+        .leadership {
+            background-color: #f7f7f7;
+            padding: 60px 30px;
+            text-align: center;
+        }
+
+        .leadership h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .leader {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .leader img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .leader h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .leader p {
+            font-size: 16px;
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 60px 30px;
+            background-color: white;
+        }
+
+        .faq h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #0071e3;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            color: #0071e3;
+        }
+
+        .faq-item p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #f7f7f7;
+            padding: 60px 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer .footer-links {
+            margin-bottom: 15px;
+        }
+
+        footer a {
+            color: #0071e3;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Media Queries for Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .about-section h2,
+            .leadership h2,
+            .faq h2 {
+                font-size: 24px;
+            }
+
+            .leader {
+                width: 150px;
+            }
+
+            .faq-container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="green.jpg" alt="Company Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>About Our Company</h1>
+        <p>Our mission, vision, history, and values</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide customers with the best possible shopping experience, offering a wide selection of products at great prices, with fast and reliable shipping.</p>
+
+            <h2>Our History</h2>
+            <p>Founded in [Year], we started as a small online bookstore and quickly expanded into a global e-commerce platform. Today, we are one of the largest retailers in the world, serving millions of customers worldwide.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li>Customer Satisfaction: We always put our customers first.</li>
+                <li>Innovation: Continuously improving and evolving to meet the needs of tomorrow.</li>
+                <li>Integrity: We operate with the highest standards of honesty and ethics.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="leadership">
+        <h2>Meet Our Leadership</h2>
+        <div class="container">
+            <div class="leader">
+                <img src="man.jpg" alt="CEO">
+                <h3>John Doe</h3>
+                <p>CEO & Founder</p>
+                <p>John has been leading our company since its inception and is committed to delivering exceptional value to customers around the world.</p>
+            </div>
+            <div class="leader">
+                <img src="woman.jpg" alt="COO">
+                <h3>Jane Smith</h3>
+                <p>COO</p>
+                <p>Jane oversees daily operations and ensures the smooth running of our global supply chain and logistics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>What is the return policy?</h3>
+                <p>We offer a 30-day return policy on most products. Please visit our returns page for more information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I contact customer service?</h3>
+                <p>You can contact us via email at <a href="mailto:support@company.com">support@greenegames.com</a> or call us at 1-800-123-4567.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you ship internationally?</h3>
+                <p>Yes, we ship to most countries worldwide. Please check our shipping page for more details.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to get in touch, feel free to contact us!</p>
+        <p>Email: <a href="mailto:support@company.com">support@greenegames.com</a></p>
+        <p>Phone: 1-800-123-4567</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2024 Greene Games. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
